@@ -1,3 +1,10 @@
 .taskHeader {
   /* Sample */
+  text-align: center;
+  border: 1px solid transparent;
+  background-image: linear-gradient(to right, rgb(30, 213, 158), rgb(15, 103, 180));
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+
 }

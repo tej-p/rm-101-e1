@@ -1,7 +1,44 @@
-.tasks {
-  /* sample */
+.unchecked{
+  border: 3px solid grey;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
 }
 
-.empty {
-  /* sample */
+.checked{
+  border: none;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: aqua;
+  
+}
+
+.task{
+  display: flex;
+  border: 1px transparent;
+  padding: 10px;
+}
+
+.addMin{
+  margin: 20px 10px;
+
+}
+
+.counter{
+  margin-top: 25px;
+}
+
+.list {
+  outline: none;
+}
+
+.complt {
+  outline: none;
+  text-decoration: line-through;
+  
 }
